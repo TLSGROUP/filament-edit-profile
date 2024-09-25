@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentEditProfile\Livewire;
+namespace DtcOnline\FilamentEditProfile\Livewire;
 
 use Filament\Forms;
 use Filament\Forms\Components\Checkbox;
@@ -10,7 +10,7 @@ use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Notifications\Notification;
-use Joaopaulolndev\FilamentEditProfile\Concerns\HasUser;
+use DtcOnline\FilamentEditProfile\Concerns\HasUser;
 
 class CustomFieldsForm extends BaseProfileForm
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentEditProfile\Livewire;
+namespace DtcOnline\FilamentEditProfile\Livewire;
 
 use Filament\Forms;
 use Filament\Forms\Components\Actions;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentEditProfile\Testing;
+namespace DtcOnline\FilamentEditProfile\Testing;
 
 use Livewire\Features\SupportTesting\Testable;
 

@@ -5,6 +5,7 @@ return [
     'profile_information' => 'Informasi Profil',
     'profile_information_description' => 'Perbarui informasi profil dan alamat email Anda.',
     'name' => 'Nama',
+    'last_name' => 'Nama Lengkap',
     'email' => 'Email',
     'avatar' => 'Foto',
     'password' => 'Kata Sandi',

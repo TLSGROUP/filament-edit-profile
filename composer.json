@@ -1,15 +1,15 @@
 {
-    "name": "joaopaulolndev/filament-edit-profile",
+    "name": "dtconline/filament-edit-profile",
     "description": "Filament package to edit profile",
     "keywords": [
-        "joaopaulolndev",
+        "dtconline",
         "laravel",
         "filament-edit-profile"
     ],
-    "homepage": "https://github.com/joaopaulolndev/filament-edit-profile",
+    "homepage": "https://github.com/TLSGROUP/filament-edit-profile",
     "support": {
-        "issues": "https://github.com/joaopaulolndev/filament-edit-profile/issues",
-        "source": "https://github.com/joaopaulolndev/filament-edit-profile"
+        "issues": "https://github.com/TLSGROUP/filament-edit-profile/issues",
+        "source": "https://github.com/TLSGROUP/filament-edit-profile"
     },
     "license": "MIT",
     "authors": [
@@ -36,13 +36,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Joaopaulolndev\\FilamentEditProfile\\": "src/",
-            "Joaopaulolndev\\FilamentEditProfile\\Database\\Factories\\": "database/factories/"
+            "DtcOnline\\FilamentEditProfile\\": "src/",
+            "DtcOnline\\FilamentEditProfile\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Joaopaulolndev\\FilamentEditProfile\\Tests\\": "tests/"
+            "DtcOnline\\FilamentEditProfile\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Joaopaulolndev\\FilamentEditProfile\\FilamentEditProfileServiceProvider"
+                "DtcOnline\\FilamentEditProfile\\FilamentEditProfileServiceProvider"
             ],
             "aliases": {
-                "FilamentEditProfile": "Joaopaulolndev\\FilamentEditProfile\\Facades\\FilamentEditProfile"
+                "FilamentEditProfile": "DtcOnline\\FilamentEditProfile\\Facades\\FilamentEditProfile"
             }
         }
     },

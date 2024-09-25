@@ -5,6 +5,7 @@ return [
     'profile_information' => 'معلومات الملف الشخصي',
     'profile_information_description' => 'قم بتحديث معلومات الملف الشخصي لحسابك وعنوان بريدك الإلكتروني.',
     'name' => 'الاسم',
+    'last_name' => 'اسم العائلة',
     'email' => 'البريد الإلكتروني',
     'avatar' => 'صورة',
     'password' => 'كلمة المرور',

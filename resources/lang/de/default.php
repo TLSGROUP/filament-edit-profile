@@ -5,6 +5,7 @@ return [
     'profile_information' => 'Profilinformationen',
     'profile_information_description' => 'Aktualisieren Sie Ihre Kontoprofilinformationen und E-Mail-Adresse.',
     'name' => 'Name',
+    'last_name' => 'Nachname',
     'email' => 'E-Mail',
     'avatar' => 'Foto',
     'password' => 'Passwort',

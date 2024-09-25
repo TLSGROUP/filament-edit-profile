@@ -5,6 +5,7 @@ return [
     'profile_information' => 'Základné informácie',
     'profile_information_description' => 'Upravte základné informácie a e-mailovú adresu profilu.',
     'name' => 'Meno',
+    'last_name' => 'Priezvisko',
     'email' => 'E-mail',
     'avatar' => 'Fotografia',
     'password' => 'Heslo',

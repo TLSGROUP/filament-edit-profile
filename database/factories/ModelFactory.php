@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentEditProfile\Database\Factories;
+namespace DtcOnline\FilamentEditProfile\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

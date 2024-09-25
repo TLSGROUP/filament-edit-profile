@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentEditProfile;
+namespace DtcOnline\FilamentEditProfile;
 
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
@@ -8,8 +8,8 @@ use Filament\Support\Assets\Css;
 use Filament\Support\Assets\Js;
 use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
-use Joaopaulolndev\FilamentEditProfile\Commands\FilamentEditProfileCommand;
-use Joaopaulolndev\FilamentEditProfile\Testing\TestsFilamentEditProfile;
+use DtcOnline\FilamentEditProfile\Commands\FilamentEditProfileCommand;
+use DtcOnline\FilamentEditProfile\Testing\TestsFilamentEditProfile;
 use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
@@ -34,8 +34,7 @@ class FilamentEditProfileServiceProvider extends PackageServiceProvider
                 $command
                     ->publishConfigFile()
                     ->publishMigrations()
-                    ->askToRunMigrations()
-                    ->askToStarRepoOnGitHub('joaopaulolndev/filament-edit-profile');
+                    ->askToRunMigrations();
             });
 
         $configFileName = $package->shortName();
@@ -59,6 +58,9 @@ class FilamentEditProfileServiceProvider extends PackageServiceProvider
 
     public function packageRegistered(): void {}
 
+    /**
+     * @throws \ReflectionException
+     */
     public function packageBooted(): void
     {
         // Asset Registration
@@ -94,7 +96,7 @@ class FilamentEditProfileServiceProvider extends PackageServiceProvider
 
     protected function getAssetPackageName(): ?string
     {
-        return 'Joaopaulolndev/filament-edit-profile';
+        return 'DtcOnline/filament-edit-profile';
     }
 
     /**

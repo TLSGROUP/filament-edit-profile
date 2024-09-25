@@ -5,6 +5,7 @@ return [
     'profile_information' => 'Profil információk',
     'profile_information_description' => 'Frissítsd a fiókod profilinformációit és e-mail címed.',
     'name' => 'Név',
+    'last_name' => 'Vezetéknév',
     'email' => 'E-mail',
     'avatar' => 'Fotó',
     'password' => 'Jelszó',

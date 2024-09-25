@@ -5,6 +5,7 @@ return [
     'profile_information' => 'Profielinformatie',
     'profile_information_description' => 'Werk uw accountprofielinformatie en e-mailadres bij.',
     'name' => 'Naam',
+    'last_name' => 'Achternaam',
     'email' => 'E-mail',
     'avatar' => 'Foto',
     'password' => 'Wachtwoord',

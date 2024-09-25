@@ -1,5 +1,5 @@
 <?php
 
-use Joaopaulolndev\FilamentEditProfile\Tests\TestCase;
+use DtcOnline\FilamentEditProfile\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

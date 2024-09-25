@@ -1,18 +1,18 @@
 <?php
 
-namespace Joaopaulolndev\FilamentEditProfile;
+namespace DtcOnline\FilamentEditProfile;
 
 use Closure;
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 use Filament\Support\Concerns\EvaluatesClosures;
-use Joaopaulolndev\FilamentEditProfile\Livewire\BrowserSessionsForm;
-use Joaopaulolndev\FilamentEditProfile\Livewire\CustomFieldsForm;
-use Joaopaulolndev\FilamentEditProfile\Livewire\DeleteAccountForm;
-use Joaopaulolndev\FilamentEditProfile\Livewire\EditPasswordForm;
-use Joaopaulolndev\FilamentEditProfile\Livewire\EditProfileForm;
-use Joaopaulolndev\FilamentEditProfile\Livewire\SanctumTokens;
-use Joaopaulolndev\FilamentEditProfile\Pages\EditProfilePage;
+use DtcOnline\FilamentEditProfile\Livewire\BrowserSessionsForm;
+use DtcOnline\FilamentEditProfile\Livewire\CustomFieldsForm;
+use DtcOnline\FilamentEditProfile\Livewire\DeleteAccountForm;
+use DtcOnline\FilamentEditProfile\Livewire\EditPasswordForm;
+use DtcOnline\FilamentEditProfile\Livewire\EditProfileForm;
+use DtcOnline\FilamentEditProfile\Livewire\SanctumTokens;
+use DtcOnline\FilamentEditProfile\Pages\EditProfilePage;
 use Livewire\Livewire;
 
 class FilamentEditProfilePlugin implements Plugin

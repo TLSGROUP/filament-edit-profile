@@ -5,6 +5,7 @@ return [
     'profile_information' => 'Podstawowe informacje',
     'profile_information_description' => 'Zaktualizuj nazwę i adres e-mail swojego konta.',
     'name' => 'Nazwa użytkownika',
+    'last_name' => 'Nazwisko',
     'email' => 'E-mail',
     'avatar' => 'Zdjęcie',
     'password' => 'Hasło',

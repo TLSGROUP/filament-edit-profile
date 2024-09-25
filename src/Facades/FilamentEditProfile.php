@@ -1,16 +1,16 @@
 <?php
 
-namespace Joaopaulolndev\FilamentEditProfile\Facades;
+namespace DtcOnline\FilamentEditProfile\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Joaopaulolndev\FilamentEditProfile\FilamentEditProfile
+ * @see \DtcOnline\FilamentEditProfile\FilamentEditProfile
  */
 class FilamentEditProfile extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Joaopaulolndev\FilamentEditProfile\FilamentEditProfile::class;
+        return \DtcOnline\FilamentEditProfile\FilamentEditProfile::class;
     }
 }

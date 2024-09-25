@@ -5,6 +5,7 @@ return [
     'profile_information' => 'اطلاعات پروفایل',
     'profile_information_description' => 'اطلاعات پروفایل و آدرس ایمیل خود را به روز کنید.',
     'name' => 'نام',
+    'last_name' => 'نام خانوادگی',
     'email' => 'ایمیل',
     'avatar' => 'آواتار',
     'password' => 'رمز عبور',

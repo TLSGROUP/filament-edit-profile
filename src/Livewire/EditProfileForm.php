@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentEditProfile\Livewire;
+namespace DtcOnline\FilamentEditProfile\Livewire;
 
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Section;
@@ -8,7 +8,7 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Notifications\Notification;
 use Filament\Support\Exceptions\Halt;
-use Joaopaulolndev\FilamentEditProfile\Concerns\HasUser;
+use DtcOnline\FilamentEditProfile\Concerns\HasUser;
 
 class EditProfileForm extends BaseProfileForm
 {
@@ -48,11 +48,14 @@ class EditProfileForm extends BaseProfileForm
                             ->hidden(! filament('filament-edit-profile')->getShouldShowAvatarForm()),
                         TextInput::make('name')
                             ->label(__('filament-edit-profile::default.name'))
-                            ->required(),
+                            ->disabled(),
+                        TextInput::make('last_name')
+                            ->label(__('filament-edit-profile::default.last_name'))
+                            ->disabled(),
                         TextInput::make('email')
                             ->label(__('filament-edit-profile::default.email'))
                             ->email()
-                            ->required()
+                            ->disabled()
                             ->unique($this->userClass, ignorable: $this->user),
                     ]),
             ])

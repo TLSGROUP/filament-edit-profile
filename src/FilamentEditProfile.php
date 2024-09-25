@@ -1,5 +1,5 @@
 <?php
 
-namespace Joaopaulolndev\FilamentEditProfile;
+namespace DtcOnline\FilamentEditProfile;
 
 class FilamentEditProfile {}
